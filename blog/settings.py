@@ -26,6 +26,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-_r-8den)r87skn82c9p-v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
+# Set this to True to see detailed error pages when DEBUG is False
+DEBUG_PROPAGATE_EXCEPTIONS = True
+
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.netlify.app', '.windsurf.build', '.onrender.com']
 
 # CSRF Settings
