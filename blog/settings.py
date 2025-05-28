@@ -28,6 +28,9 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.netlify.app', '.windsurf.build', '.onrender.com']
 
+# CSRF Settings
+CSRF_TRUSTED_ORIGINS = ['https://myblog-xwlx.onrender.com']
+
 
 # Application definition
 
