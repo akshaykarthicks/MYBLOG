@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_r-8den)r87skn82c9p-ve$b%xoy-n)j63s!ka1qv1k6x4v4k@'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-_r-8den)r87skn82c9p-ve$b%xoy-n)j63s!ka1qv1k6x4v4k@')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.netlify.app', '.windsurf.build']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.netlify.app', '.windsurf.build', '.onrender.com']
 
 
 # Application definition
@@ -128,7 +128,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Whitenoise for static file serving in production
 MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

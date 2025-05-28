@@ -1,4 +1,5 @@
-Django>=5.0.1
-gunicorn>=21.2.0
-whitenoise>=6.5.0
-dj-database-url>=2.1.0
+Django==5.0.1
+gunicorn==21.2.0
+whitenoise==6.5.0
+dj-database-url==2.1.0
+python-dotenv==1.0.0
