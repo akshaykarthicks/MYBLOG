@@ -1,6 +1,7 @@
 # MYBLOG - Django Blog Project
 
 A simple blog application built with Django that allows users to create and view blog posts.
+https://myblog-xwlx.onrender.com
 
 ## Project Structure
 
