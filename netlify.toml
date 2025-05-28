@@ -1,10 +1,11 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "."
+  command = "pip install -r requirements.txt && python manage.py collectstatic --noinput"
+  publish = "staticfiles/"
 
 [build.environment]
   PYTHON_VERSION = "3.10"
 
+# The following redirect is intended for use with most SPAs that handle routing internally.
 [[redirects]]
   from = "/*"
   to = "/index.html"
