@@ -1,4 +1,4 @@
-# Django Blog Project
+# MYBLOG - Django Blog Project
 
 A simple blog application built with Django that allows users to create and view blog posts.
 
@@ -55,4 +55,4 @@ The project includes three main templates:
 
 The project includes Django's admin interface at `/admin/` where you can:
 - Manage blog posts
-- Add, edit, or delete posts 
+- Add, edit, or delete posts
