@@ -3,6 +3,14 @@
 A simple blog application built with Django that allows users to create and view blog posts.
 https://myblog-xwlx.onrender.com
 
+![Screenshot 2025-05-27 202203](https://github.com/user-attachments/assets/7061892d-80f8-444b-9d0e-3e19d681e419)
+![Screenshot 2025-05-27 202209](https://github.com/user-attachments/assets/2defdaf6-86a1-4ba3-8568-68fcaff9820f)
+![Screenshot 2025-05-27 202217](https://github.com/user-attachments/assets/b20cb4f6-8623-4356-a49e-a2f2b2fd4b37)
+
+
+
+
+
 ## Project Structure
 
 ```
